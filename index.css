@@ -42,7 +42,7 @@ button {
     font-family: timerUI;
     margin-top: 40px;
     padding: 20px;
-    background-color: #1B244A;
+    background-color: inherit;
     border: 2px solid #9AABD8;
     border-radius: 10px;
     color: #9AABD8;
