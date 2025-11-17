@@ -6,8 +6,8 @@
 body {
    margin: 0;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   background-color: #1B244A;
-   color: white;
+   background-color: #111827;
+   color: rgba(154, 171, 216, 0.750);
    font-size: 40px;
 }
 
@@ -22,6 +22,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.team {
+    text-shadow: 0 0 4px #9AABD8;
 }
 
 .score {
