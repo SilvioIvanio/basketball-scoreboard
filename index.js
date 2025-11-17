@@ -52,3 +52,14 @@ treePointsGuestBtn.addEventListener("click", function() {
     scoreGuestResult += 3;
     scoreGuest.textContent = scoreGuestResult;
 });
+
+
+// RESET BUTTON
+let resetButton = document.getElementById("reset-btn");
+
+resetButton.addEventListener("click", function() {
+    scoreHomeResult = 0;
+    scoreHome.textContent = 0;
+    scoreGuestResult = 0;
+    scoreGuest.textContent = 0;
+});

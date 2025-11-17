@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 .container {
@@ -52,4 +52,9 @@ button:hover {
     background-color: #9AABD8;
     color: #1B244A;
     cursor: pointer;
+}
+
+.reset-btn {
+    display: flex;
+    justify-content: center;
 }
